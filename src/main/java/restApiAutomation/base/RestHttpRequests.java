@@ -90,7 +90,7 @@ public class RestHttpRequests {
 	@BeforeSuite
 	public void getAuthenticationTocken() {
 		RequestSpecification request = RestAssured.given();
-		request = request.header("Content-Type", Configurations.CONTENT_TYPE1);
+		request = request.header("Content-Type", Configurations.CONTENT_TYPE2);
 		request = request.formParam(Configurations.AUTH_TOCKEN_BODY_KEY1, Configurations.AUTH_TOCKEN_BODY_VALUE1);
 		request = request.formParam(Configurations.AUTH_TOCKEN_BODY_KEY2, Configurations.AUTH_TOCKEN_BODY_VALUE2);
 		request = request.formParam(Configurations.AUTH_TOCKEN_BODY_KEY3, Configurations.AUTH_TOCKEN_BODY_VALUE3).request();

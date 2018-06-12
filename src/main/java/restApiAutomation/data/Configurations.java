@@ -13,6 +13,5 @@ public class Configurations {
 	public static String AUTH_TOCKEN_BODY_VALUE3 = "";
 	public static String AUTH_USER_NAME = "";
 	public static String AUTH_PASSWORD = "";
-	
 
 }
