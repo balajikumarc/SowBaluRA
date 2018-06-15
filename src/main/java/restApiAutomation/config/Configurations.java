@@ -1,4 +1,4 @@
-package restApiAutomation.data;
+package restApiAutomation.config;
 
 public class Configurations {
 	
